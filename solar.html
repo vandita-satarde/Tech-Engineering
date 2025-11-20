@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar</title>
+    <link rel="stylesheet" href="assets/css/solar.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <!-- navigation bar starts  -->
+    <div class="navbar">
+        <div class="logo"><a href="index.html"><img src="/assets/img/logo.png" alt=""></a></div>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <ul id="nav-links">
+            <li><a href="ourTeam.html">Teams</a></li>
+            <li><a href="firesafety.html">Fire Safety</a></li>
+            <li><a href="hvac.html">HVAC</a></li>
+            <li><a href="solar.html">Solar power</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <div class="down">
+                <li><a href="contact.html">Contact Us</a></li>
+            </div>
+        </ul>
+    </div>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById('nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+
+    <!-- navigation bar ends  -->
+
+    <!-- background image Header -->
+    <section class="hero" style="background-image: url('/assets/img/solarbanner.png')">
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>Harness the Power the sun</h1>
+            <p>Clean, Renewable Energy Solutions for a Brighter Future</p>
+            <a href="contact.html" class="btn">Contact Us</a>
+        </div>
+    </section>
+    <!-- background image Header Ends -->
+
+    <!-- about Section  -->
+    <section class="text">
+        <p>
+            At MAH Tech, we specialize in HVAC solutions that prioritize energy
+            efficiency, cost-effectiveness, and indoor comfort. With expertise
+            spanning residential, commercial, and industrial spaces, we offer
+            customized services to meet your unique heating, ventilation, and air
+            conditioning needs.
+        </p>
+    </section>
+    <!-- about Section End  -->
+
+    <!-- Why Choose Us -->
+    <section class="why-choose-us">
+        <img src="assets/img/chooseus1.png" alt="Why Choose Us" class="why-choose-us-img" />
+        <div class="features">
+            <h2>Why Choose Us</h2>
+            <ul>
+                <li>
+                    <strong>1. Unmatched Expertise:</strong><br />
+                    Our team of certified HVAC professionals has years of experience.
+                </li>
+                <li>
+                    <strong>2. Energy Efficiency:</strong><br />
+                    Reduce Energy Costs And Environmental Impact With Our
+                    Energy-Efficient Solutions.
+                </li>
+                <li>
+                    <strong>3. Customer Satisfaction:</strong><br />
+                    We Prioritize Your Comfort And Satisfaction.
+                </li>
+                <li>
+                    <strong>4. Comprehensive Services:</strong><br />
+                    From Design And Installation To Maintenance And Repair, We’ve Got
+                    You Covered.
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- Why Choose Us End -->
+
+    <!-- Our Services -->
+    <section class="services-section">
+        <h2 class="section-title">Our Services</h2>
+        <div class="services-container">
+            <div class="service-box">
+                <h3>1. Solar System Design And Installation</h3>
+                <p>Our Team Of Experts Customize Solar Energy Systems To Fit Your Specific Needs:</p>
+                <ul>
+                    <li>Feasibility, Commercial, And Technical Assessments</li>
+                    <li>Ground-Mounted, Rooftop, And Hybrid Solar Solutions</li>
+                    <li>State-Of-The-Art Technology For Maximum Efficiency</li>
+                </ul>
+            </div>
+            <div class="service-box">
+                <h3>2. Operation & Maintenance Services</h3>
+                <p>Keep Your Solar Systems Running Optimally With Our Comprehensive Maintenance Services:</p>
+                <ul>
+                    <li>Regular Performance Monitoring</li>
+                    <li>Preventive Maintenance And System Upgrades</li>
+                    <li>Rapid On-Demand Services For Energy Production</li>
+                </ul>
+            </div>
+            <div class="service-box">
+                <h3>3. Energy Storage Solution</h3>
+                <p>Maximize Your Energy Independence With Our Energy Storage Solutions:</p>
+                <ul>
+                    <li>Smart Energy Systems For Efficient Energy Storage</li>
+                    <li>Power Backup During Outages</li>
+                    <li>Smart Energy Management For Consistent Supply</li>
+                </ul>
+            </div>
+            <div class="service-box">
+                <h3>4. Statutory Approvals And Compliance</h3>
+                <p>We Simplify The Process Of Meeting Regulatory Requirements:</p>
+                <ul>
+                    <li>Facilitating Compliance With Local And National Energy Policies</li>
+                    <li>Support With Subsidy Applications And Documentation</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- Our Services End -->
+
+    <!-- Industries We Serve -->
+    <section class="industries-section">
+        <h2 class="section-title">Industries We Serve</h2>
+        <div class="industries-container">
+            <div class="industry-box">
+                <h3>Residential:</h3>
+                <p>Develop installations to reduce household energy costs.</p>
+            </div>
+            <div class="industry-box">
+                <h3>Commercial:</h3>
+                <p>Tailored systems for offices, retail spaces, and warehouses.</p>
+            </div>
+            <div class="industry-box">
+                <h3>Industrial:</h3>
+                <p>High-capacity systems for factories and manufacturing units.</p>
+            </div>
+            <div class="industry-box">
+                <h3>Agricultural:</h3>
+                <p>Solar irrigation systems and farm equipment power.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Industries We Serve End -->
+
+    <!-- our approach -->
+    <div class="approach-container">
+        <h2>Our Approach</h2>
+        <div class="approach-steps">
+            <div class="step">
+                <div class="circle">01</div>
+                <div class="content1">
+                    <h3>Consultation :</h3>
+                    <p>We assess your energy needs and discuss your goals.</p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="circle">02</div>
+                <div class="content1">
+                    <h3>Design :</h3>
+                    <p>We design a customized solar system to maximize energy production.</p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="circle">03</div>
+                <div class="content1">
+                    <h3>Installation :</h3>
+                    <p>Our experienced team installs your solar system efficiently.</p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="circle">04</div>
+                <div class="content1">
+                    <h3>Monitoring :</h3>
+                    <p>We monitor your system's performance and provide regular updates.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- our approach -->
+
+    <!-- Testimonials -->
+    <div class="testimonials-section">
+        <h2>Testimonials</h2>
+        <div class="carousel-container">
+            <!-- <button class="nav-btn prev-btn" onclick="slideTestimonials(-1)">&#10094;</button> -->
+            <div class="testimonials-container" id="testimonialsContainer">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>
+                        We were initially hesitant about upgrading our HVAC system, but MAH Tech Engineering made the
+                        process smooth and stress-free. The new system has dramatically improved our indoor comfort and
+                        energy efficiency. We're thrilled with the results!
+                    </p>
+                    <p><strong>[Client Name] | [Client Company Name]</strong></p>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>
+                        We've been using [Company Name] for years for our HVAC maintenance and repair needs. They always
+                        provide excellent service and are very responsive. We highly recommend them.
+                    </p>
+                    <p><strong>[Client Name] | [Client Company Name]</strong></p>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>
+                        We were impressed with the professionalism and expertise of MAH Tech. They quickly diagnosed the
+                        issue with our HVAC system and provided a cost-effective solution. We're very satisfied with
+                        their service.
+                    </p>
+                    <p><strong>[Client Name] | [Client Company Name]</strong></p>
+                </div>
+                <!-- Testimonial 4 -->
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>
+                        MAH Tech exceeded our expectations with their new HVAC system installation. The team was
+                        efficient, clean, and knowledgeable. Our energy bills have significantly decreased since the
+                        installation.
+                    </p>
+                    <p><strong>[Client Name] | [Client Company Name]</strong></p>
+                </div>
+                <!-- Testimonial 5 -->
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>
+                        MAH Tech Engineering provided exceptional service from start to finish. Their technicians were
+                        knowledgeable, courteous, and efficient. We’re confident in recommending them to anyone in need
+                        of HVAC services.
+                    </p>
+                    <p><strong>[Client Name] | [Client Company Name]</strong></p>
+                </div>
+
+            </div>
+            <!-- <button class="nav-btn next-btn" onclick="slideTestimonials(1)">&#10095;</button> -->
+        </div>
+    </div>
+
+    <script>
+        let currentIndex = 0;
+        const testimonialsContainer = document.getElementById('testimonialsContainer');
+        const testimonialCards = document.querySelectorAll('.testimonial-card');
+        const totalCards = testimonialCards.length;
+        const cardsPerView = 4; // Number of cards visible on desktop
+
+        function autoSlideTestimonials() {
+            const maxIndex = totalCards - cardsPerView;
+
+            // Move to the next slide
+            currentIndex++;
+            if (currentIndex > maxIndex) {
+                currentIndex = 0; // Reset to the first slide
+            }
+
+            const translateX = -(currentIndex * (100 / cardsPerView));
+            testimonialsContainer.style.transform = `translateX(${translateX}%)`;
+        }
+
+        // Automatically slide every 3 seconds
+        setInterval(autoSlideTestimonials, 3000);
+    </script>
+
+    <!-- Testimonials End -->
+
+    <!-- Our proud Customer -->
+    <section class="customer-section">
+        <h2>Our Proud Customers</h2>
+        <div class="customer-grid">
+            <div class="customer-item">
+                <img src="assets/img/customer1.jpeg" alt="Customer 1">
+            </div>
+            <div class="customer-item">
+                <img src="assets/img/customer2.jpeg" alt="Customer 2">
+            </div>
+            <div class="customer-item">
+                <img src="assets/img/customer1.jpeg" alt="Customer 3">
+            </div>
+            <div class="customer-item">
+                <img src="assets/img/customer1.jpeg" alt="Customer 4">
+            </div>
+            <div class="customer-item">
+                <img src="assets/img/customer2.jpeg" alt="Customer 5">
+            </div>
+            <a href="nextpage.html" class="customer-item explore-more">
+                <span>Explore More</span>
+            </a>
+        </div>
+    </section>
+    <!-- Our proud Customer end -->
+
+    <!-- Let's Discuss Your Solar Needs -->
+    <section class="solar-section">
+        <div class="solar-content">
+            <h2>Let's Discuss Your Solar Needs</h2>
+            <p class="subheading">Ready To Take The Next Step?</p>
+            <p class="description">
+                Take The First Step Towards Energy Independence Today! Contact Us To Discuss Your Solar Energy Needs And
+                Get A Customized Quote.
+            </p>
+            <button class="btn">Get In Touch</button>
+        </div>
+        <div class="solar-image">
+            <img src="assets/img/solar panels.png" alt="Solar Panels">
+        </div>
+    </section>
+    <!-- Let's Discuss Your Solar Needs End-->
+
+    <!-- Latest News & Blog Posts -->
+    <!-- Latest News & Blog Posts  End-->
+
+    <!-- Footer Section -->
+    <footer class="footer-container">
+        <div class="footer-content">
+            <!-- Section 1: Logo -->
+            <div class="footer-logo-section">
+                <img src="/assets/img/footerlogo.png" alt="Mah Fire and Safety Solution Logo" class="footer-logo">
+            </div>
+
+            <!-- Section 2: Info/About -->
+            <div class="footer-info-section">
+                <p>
+                    Combining expertise in fire safety, renewable energy, and HVAC solutions, we deliver innovative
+                    systems that safeguard lives, power sustainable development, and enhance indoor comfort. Trust us to
+                    be your partner in safety, sustainability, and comfort.
+                </p>
+            </div>
+
+            <!-- Section 3: Contact Info -->
+            <div class="footer-contact-section">
+                <h2>Contact Us</h2>
+                <ul>
+                    <li><i class='bx bxs-edit-location'></i> 68, Uruvela Colony, Near Chatrapati Square, Nagpur-440015
+                    </li>
+                    <li><i class='bx bx-link-alt'></i> <a href="https://www.mahfireandsafetysolution.com"
+                            target="_blank">www.techengi.in</a></li>
+                    <li><i class='bx bx-envelope'></i> <a
+                            href="mailto:mahfireandsafetysolution@gmail.com">mahtechengineering@gmail.com</a></li>
+                    <li><i class='bx bx-phone'></i> Mr. Hemant Taksande - <a href="tel:+919405569565">9405569565 ,
+                            9428816839</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End-->
+
+</body>
+
+</html>

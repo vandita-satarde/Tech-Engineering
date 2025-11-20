@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MAH Tech Engineering</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/index.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="logo"><a href="index.html"><img src="/assets/img/logo.png" alt=""></a></div>
+    <div class="hamburger" onclick="toggleMenu()">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <ul id="nav-links">
+      <li><a href="ourTeam.html">Teams</a></li>
+      <li><a href="firesafety.html">Fire Safety</a></li>
+      <li><a href="hvac.html">HVAC</a></li>
+      <li><a href="solar.html">Solar power</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <div class="down">
+        <li><a href="contact.html">Contact Us</a></li>
+      </div>
+    </ul>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      const navLinks = document.getElementById('nav-links');
+      navLinks.classList.toggle('active');
+    }
+  </script>
+
+  <!-- Slideshow container -->
+  <div class="slideshow-container">
+
+    <!-- Slide 1 -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="/assets/img/slider1.png" alt="Slide 1">
+      <div class="content">
+        <h2>Welcome to Our Solutions</h2>
+        <p>We offer cutting-edge systems for fire safety, renewable energy, and HVAC solutions.</p>
+        <a href="#learn-more" class="btn">Learn More</a>
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="/assets/img/slider2.png" alt="Slide 2">
+      <div class="content">
+        <h2>Sustainability and Comfort</h2>
+        <p>Our innovative designs power sustainable development and enhance indoor comfort.</p>
+        <a href="#services" class="btn">Our Services</a>
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="/assets/img/slider3.png" alt="Slide 3">
+      <div class="content">
+        <h2>Partner in Safety</h2>
+        <p>Trust us to safeguard lives and provide reliable solutions tailored to your needs.</p>
+        <a href="#contact" class="btn">Contact Us</a>
+      </div>
+    </div>
+
+  </div>
+
+  <section class="text">
+    <h1>Securing Lives, Energizing Futures, And Comforting Spaces!</h1>
+    <p>
+      Combining expertise in fire safety, renewable energy, and HVAC solutions, we deliver innovative systems that
+      safeguard lives, power sustainable development, and enhance indoor comfort. Trust us to be your partner in safety,
+      sustainability, and comfort.
+    </p>
+  </section>
+
+  <section class="services-section">
+    <h2> Services We Offer</h2>
+    <div class="services-container">
+      <div class="service">
+        <img src="/assets/img/service1.png" alt="">
+        <p>Fire Safety Solutions</p>
+      </div>
+      <div class="service">
+        <img src="/assets/img/service2.png" alt="">
+        <p>HVAC Systems</p>
+      </div>
+      <div class="service">
+        <img src="/assets//img/service3.png" alt="">
+        <p>Solar Power</p>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="testimonials-section">
+    <h2>Testimonials</h2>
+    <div class="carousel-container">
+      <!-- <button class="nav-btn prev-btn" onclick="slideTestimonials(-1)">&#10094;</button> -->
+      <div class="testimonials-container" id="testimonialsContainer">
+        <!-- Testimonial 1 -->
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>
+            We were initially hesitant about upgrading our HVAC system, but MAH Tech Engineering made the process smooth
+            and stress-free. The new system has dramatically improved our indoor comfort and energy efficiency. We're
+            thrilled with the results!
+          </p>
+          <!--<p><strong>[Client Name] | [Client Company Name]</strong></p>-->
+        </div>
+        <!-- Testimonial 2 -->
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>
+            We've been using for years for our HVAC maintenance and repair needs. They always provide excellent service
+            and are very responsive. We highly recommend them.
+          </p>
+          <!--<p><strong>[Client Name] | [Client Company Name]</strong></p>-->
+        </div>
+        <!-- Testimonial 3 -->
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>
+            We were impressed with the professionalism and expertise of MAH Tech. They quickly diagnosed the issue with
+            our HVAC system and provided a cost-effective solution. We're very satisfied with their service.
+          </p>
+          <!--<p><strong>[Client Name] | [Client Company Name]</strong></p>-->
+        </div>
+        <!-- Testimonial 4 -->
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>
+            MAH Tech exceeded our expectations with their new HVAC system installation. The team was efficient, clean,
+            and knowledgeable. Our energy bills have significantly decreased since the installation.
+          </p>
+          <!--<p><strong>[Client Name] | [Client Company Name]</strong></p>-->
+        </div>
+        <!-- Testimonial 5 -->
+        <div class="testimonial-card">
+          <div class="stars">★★★★★</div>
+          <p>
+            MAH Tech Engineering provided exceptional service from start to finish. Their technicians were
+            knowledgeable, courteous, and efficient. We’re confident in recommending them to anyone in need of HVAC
+            services.
+          </p>
+          <!--<p><strong>[Client Name] | [Client Company Name]</strong></p>-->
+        </div>
+
+      </div>
+      <!-- <button class="nav-btn next-btn" onclick="slideTestimonials(1)">&#10095;</button> -->
+    </div>
+  </div>
+
+  <script>
+    // let currentIndex = 0;
+    const testimonialsContainer = document.getElementById('testimonialsContainer');
+    const testimonialCards = document.querySelectorAll('.testimonial-card');
+    const totalCards = testimonialCards.length;
+    const cardsPerView = 4; // Number of cards visible on desktop
+
+    function autoSlideTestimonials() {
+      const maxIndex = totalCards - cardsPerView;
+
+      // Move to the next slide
+      currentIndex++;
+      if (currentIndex > maxIndex) {
+        currentIndex = 0; // Reset to the first slide
+      }
+
+      const translateX = -(currentIndex * (100 / cardsPerView));
+      testimonialsContainer.style.transform = `translateX(${translateX}%)`;
+    }
+
+    // Automatically slide every 3 seconds
+    setInterval(autoSlideTestimonials, 3000);
+  </script>
+
+
+
+  <div class="choose-us-section">
+    <div class="container">
+      <div class="image-container">
+        <img src="/assets/img/chooseus1.png" alt="Why Choose Us">
+      </div>
+      <div class="content-container">
+        <h2>Why Choose Us</h2>
+        <ul>
+          <li>
+            <strong>Experienced Team:</strong><br>Our experts ensure optimal safety and efficiency.
+          </li>
+          <li>
+            <strong>Customer-Centric Approach:</strong><br>Your satisfaction is our priority.
+          </li>
+          <li>
+            <strong>Proven Track Record:</strong><br> Successful Projects Across Diverse Industries.
+          </li>
+          <li>
+            <strong>Commitment To Sustainability:</strong><br> Eco-Friendly Solutions For A Greener Future.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="proud-container">
+    <div class="header-content">
+      <h1>Our Proud Customers</h1>
+    </div>
+    <div class="logos-carousel">
+      <div class="logos-track">
+        <!-- Logos -->
+        <img alt="Logo 1" src="/assets/img/upperlogo1.png" class="carousel-logo">
+        <img alt="Logo 2" src="/assets/img/upperlogo2.png" class="carousel-logo">
+        <img alt="Logo 3" src="/assets/img/upperlogo3.png" class="carousel-logo">
+        <img alt="Logo 4" src="/assets/img/upperlogo4.png" class="carousel-logo">
+        <img alt="Logo 5" src="/assets/img/upperlogo5.png" class="carousel-logo">
+        <img alt="Logo 6" src="/assets/img/upperlogo6.png" class="carousel-logo">
+        <img alt="Logo 7" src="/assets/img/upperlogo7.jpg" class="carousel-logo">
+        <img alt="Logo 8" src="/assets/img/upperlogo8.jpg" class="carousel-logo">
+        <img alt="Logo 9" src="/assets/img/upperlogo9.png" class="carousel-logo">
+        <!-- <img alt="Logo 10" src="/assets/img/upperlogo10.png" class="carousel-logo"> -->
+        <img alt="Logo 11" src="/assets/img/upperlogo11.png" class="carousel-logo">
+        <img alt="Logo 12" src="/assets/img/upperlogo12.jpg" class="carousel-logo">
+        <img alt="Logo 13" src="/assets/img/upperlogo13.png" class="carousel-logo">
+        <!-- <img alt="Logo 14" src="/assets/img/upperlogo14.png" class="carousel-logo"> -->
+        <img alt="Logo 15" src="/assets/img/upperlogo15.png" class="carousel-logo">
+      </div>
+    </div>
+
+
+    <script>document.addEventListener("DOMContentLoaded", function () {
+        const track = document.querySelector(".logos-track");
+        const logos = Array.from(track.children);
+
+        // Clone logos for seamless looping
+        logos.forEach((logo) => {
+          const clone = logo.cloneNode(true);
+          track.appendChild(clone);
+        });
+
+        let scrollPosition = 0;
+        const scrollSpeed = 1; // Adjust speed of scrolling (pixels per frame)
+
+        function animate() {
+          scrollPosition -= scrollSpeed;
+
+          // Reset to start when scrolling exceeds the width of original content
+          const firstLogoWidth = logos[0].offsetWidth + 30; // Logo width + gap
+          if (Math.abs(scrollPosition) >= firstLogoWidth * logos.length) {
+            scrollPosition = 0;
+          }
+
+          // Apply transform
+          track.style.transform = `translateX(${scrollPosition}px)`;
+
+          // Request next frame
+          requestAnimationFrame(animate);
+        }
+
+        animate();
+      });
+    </script>
+
+
+  </div>
+
+  <script>
+    document.querySelector('.arrow').addEventListener('click', function () {
+      var customers = document.querySelector('.customers');
+      if (customers.style.display === 'flex') {
+        customers.style.display = 'none';
+      } else {
+        customers.style.display = 'flex';
+      }
+    });
+  </script>
+
+
+  <section class="customer-section">
+    <h2>Our Proud Customers</h2>
+    <div class="customer-grid">
+      <div class="customer-item">
+        <img src="/assets/img/customer1.jpeg" alt="Customer 1">
+      </div>
+      <div class="customer-item">
+        <img src="/assets/img/customer2.jpeg" alt="Customer 2">
+      </div>
+      <div class="customer-item">
+        <img src="/assets/img/customer1.jpeg" alt="Customer 3">
+      </div>
+      <div class="customer-item">
+        <img src="/assets/img/customer2.jpeg" alt="Customer 4">
+      </div>
+      <div class="customer-item">
+        <img src="/assets/img/customer1.jpeg" alt="Customer 5">
+      </div>
+      <a href="portfolio.html" class="customer-item explore-more">
+        <span>Explore More</span>
+      </a>
+    </div>
+  </section>
+
+
+  <footer class="footer-container">
+    <div class="footer-content">
+      <!-- Section 1: Logo -->
+      <div class="footer-logo-section">
+        <img src="/assets/img/footerlogo.png" alt="Mah Fire and Safety Solution Logo" class="footer-logo">
+      </div>
+
+      <!-- Section 2: Info/About -->
+      <div class="footer-info-section">
+        <p>
+          Combining expertise in fire safety, renewable energy, and HVAC solutions, we deliver innovative systems that
+          safeguard lives, power sustainable development, and enhance indoor comfort. Trust us to be your partner in
+          safety, sustainability, and comfort.
+        </p>
+      </div>
+
+      <!-- Section 3: Contact Info -->
+      <div class="footer-contact-section">
+        <h2>Contact Us</h2>
+        <ul>
+          <li><i class='bx bxs-edit-location'></i> 68, Uruvela Colony, Near Chatrapati Square, Nagpur-440015</li>
+          <li><i class='bx bx-link-alt'></i> <a href="https://www.mahfireandsafetysolution.com"
+              target="_blank">www.techengi.in</a></li>
+          <li><i class='bx bx-envelope'></i> <a
+              href="mailto:mahfireandsafetysolution@gmail.com">mahtechengineering@gmail.com</a></li>
+          <li><i class='bx bx-phone'></i> Mr. Hemant Taksande - <a href="tel:+919405569565">9405569565 , 9428816839</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      slides[slideIndex - 1].style.display = "block";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+  </script>
+
+
+  <script>
+    const blogContainer = document.querySelector('.blog-container');
+    const leftBtn = document.querySelector('.left-btn');
+    const rightBtn = document.querySelector('.right-btn');
+    const posts = document.querySelectorAll('.blog-post');
+
+    let currentIndex = 0;
+    const postsToShow = 3; // Number of blocks to show
+    const totalPosts = posts.length;
+    const postWidth = posts[0].offsetWidth + 20; // Including gap
+
+    // Set up the maximum index of visible blocks
+    const maxIndex = totalPosts - postsToShow;
+
+    const updateCarousel = () => {
+      if (currentIndex < 0) currentIndex = maxIndex;
+      if (currentIndex > maxIndex) currentIndex = 0;
+      blogContainer.style.transform = translateX(`-${currentIndex * postWidth}px`);
+    };
+
+    leftBtn.addEventListener('click', () => {
+      currentIndex--;
+      updateCarousel();
+    });
+
+    rightBtn.addEventListener('click', () => {
+      currentIndex++;
+      updateCarousel();
+    });
+
+    window.addEventListener('resize', () => {
+      // Recalculate post width dynamically on window resize
+      const postWidth = posts[0].offsetWidth + 20; // Including gap
+      updateCarousel();
+    });
+
+    // Initial update to set the carousel to the correct position
+    updateCarousel();
+  </script>
+
+
+
+</body>
+
+</html>

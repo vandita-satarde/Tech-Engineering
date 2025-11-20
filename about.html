@@ -1,0 +1,289 @@
+<html>
+
+<head>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/about.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="logo"><a href="index.html"><img src="/assets/img/logo.png" alt=""></a></div>
+    <div class="hamburger" onclick="toggleMenu()">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <ul id="nav-links">
+      <li><a href="ourTeam.html">Teams</a></li>
+      <li><a href="firesafety.html">Fire Safety</a></li>
+      <li><a href="hvac.html">HVAC</a></li>
+      <li><a href="solar.html">Solar power</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <div class="down">
+        <li><a href="contact.html">Contact Us</a></li>
+      </div>
+    </ul>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      const navLinks = document.getElementById('nav-links');
+      navLinks.classList.toggle('active');
+    }
+  </script>
+  <div class="container"
+    style="position: relative; width: 100%; height: 100vh; overflow: hidden; font-family: Arial, sans-serif;">
+    <div class="slide"
+      style="display: block; width: 100%; height: 100%; position: absolute; top: 0; left: 0; transition: opacity 1s ease-in-out;">
+      <img alt="A person in a safety vest and helmet pointing towards solar panels under a clear blue sky" height="1080"
+        src="https://storage.googleapis.com/a1aa/image/eTJXfsKAr7ld3EXLDXgJygkequJFZdExyljnw8bvFaZekNAQB.jpg"
+        width="1920" style="width: 100%; height: 100%; object-fit: cover; filter: brightness(50%);" />
+      <div class="content"
+        style="position: absolute; top: 50%; left: 0; transform: translateY(-50%); text-align: left; color: white; padding: 20px; padding-left: 40px; opacity: 1; transition: opacity 1s ease-in-out;">
+        <h1 style="font-size: 3em; margin: 0;">
+          “Powering a Sustainable Future, One Panel at a Time.”
+        </h1>
+        <p style="font-size: 1em; margin-top: 20px; max-width: 600px; line-height: 1.5;" class="carousel-text">
+          We believe in a future powered by clean, renewable energy. That's why we're dedicated to providing innovative
+          solutions that make it easier and more affordable for individuals and businesses to transition to sustainable
+          energy sources. Join us as we work towards a greener tomorrow, one panel at a time.
+        </p>
+      </div>
+    </div>
+    <div class="slide"
+      style="display: none; width: 100%; height: 100%; position: absolute; top: 0; left: 0; transition: opacity 1s ease-in-out;">
+      <img alt="A wind turbine in a field under a clear blue sky" height="1080"
+        src="https://storage.googleapis.com/a1aa/image/JBBSb6DgqPY4AtaODO4BegAXanre9rZzHbU6Gd9QKDkf2GAoA.jpg"
+        width="1920" style="width: 100%; height: 100%; object-fit: cover; filter: brightness(50%);" />
+      <div class="content"
+        style="position: absolute; top: 50%; left: 0; transform: translateY(-50%); text-align: left; color: white; padding: 20px; padding-left: 40px; opacity: 0; transition: opacity 1s ease-in-out;">
+        <h1 style="font-size: 3em; margin: 0;">
+          “Harnessing the Power of Wind.”
+        </h1>
+        <p style="font-size: 1em; margin-top: 20px; max-width: 600px; line-height: 1.5;" class="carousel-text">
+          Our wind energy solutions are designed to provide clean, renewable energy to communities around the world.
+          Join us in harnessing the power of wind to create a sustainable future.
+        </p>
+      </div>
+    </div>
+    <div class="slide"
+      style="display: none; width: 100%; height: 100%; position: absolute; top: 0; left: 0; transition: opacity 1s ease-in-out;">
+      <img alt="A hydroelectric dam with water flowing" height="1080"
+        src="https://storage.googleapis.com/a1aa/image/nxwW0CiPtF45Jpv8BjV4xlqxfM2LN0Wr31OdMhl9h1lttBAKA.jpg"
+        width="1920" style="width: 100%; height: 100%; object-fit: cover; filter: brightness(50%);" />
+      <div class="content"
+        style="position: absolute; top: 50%; left: 0; transform: translateY(-50%); text-align: left; color: white; padding: 20px; padding-left: 40px; opacity: 0; transition: opacity 1s ease-in-out;">
+        <h1 style="font-size: 3em; margin: 0;">
+          “Flowing Towards a Greener Tomorrow.”
+        </h1>
+        <p style="font-size: 1em; margin-top: 20px; max-width: 600px; line-height: 1.5;" class="carousel-text">
+          Hydroelectric power is a key component of our renewable energy strategy. Discover how we're using the power of
+          water to generate clean energy and reduce our carbon footprint.
+        </p>
+      </div>
+    </div>
+    <div class="slide"
+      style="display: none; width: 100%; height: 100%; position: absolute; top: 0; left: 0; transition: opacity 1s ease-in-out;">
+      <img alt="A field of solar panels under a bright sun" height="1080"
+        src="https://storage.googleapis.com/a1aa/image/frDGVZUOqfni00yXOxtZClPQugHVsvdnW2H5XD2eqar62GAoA.jpg"
+        width="1920" style="width: 100%; height: 100%; object-fit: cover; filter: brightness(50%);" />
+      <div class="content"
+        style="position: absolute; top: 50%; left: 0; transform: translateY(-50%); text-align: left; color: white; padding: 20px; padding-left: 40px; opacity: 0; transition: opacity 1s ease-in-out;">
+        <h1 style="font-size: 3em; margin: 0;">
+          “Solar Energy for a Brighter Future.”
+        </h1>
+        <p style="font-size: 1em; margin-top: 20px; max-width: 600px; line-height: 1.5;" class="carousel-text">
+          Solar energy is at the heart of our mission to create a sustainable future. Learn more about our solar
+          solutions and how they're making a difference in communities around the world.
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="containerft">
+    <div class="left-section">
+      <div class="stats-card">
+        <div class="number">30,000+</div>
+        <div class="stats-text">Sales in July 2021 with 5 star ratings and happy clients.</div>
+        <div class="avatar-grid">
+          <div class="avatar"></div>
+          <div class="avatar"></div>
+          <div class="avatar"></div>
+          <div class="avatar"></div>
+          <div class="avatar"></div>
+          <div class="avatar"></div>
+          <div class="avatar"></div>
+          <div class="avatar"></div>
+        </div>
+      </div>
+      <div class="image-grid">
+        <div class="main-image">
+          <img src="assets/img/about1.png" alt="Firefighters with equipment" />
+        </div>
+        <div class="secondary-image">
+          <img src="assets/img/about3.png" alt="Maintenance worker" />
+        </div>
+      </div>
+    </div>
+    <div class="right-section">
+      <div class="subtitle">A BIT</div>
+      <h1 class="title">ABOUT US</h1>
+      <p class="description">
+        From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was
+        household applauded incommode. Why kept very ever home mrs. Considered sympathize ten uncommonly occasional
+        assistance sufficient not.
+      </p>
+      <a href="#" class="explore-btn">EXPLORE MORE</a>
+    </div>
+  </div>
+  <div class="container">
+    <div class="left-section">
+      <img alt="A blue sky with the word 'VISION' written in clouds and a red arrow pointing upwards." height="300"
+        src="https://storage.googleapis.com/a1aa/image/DICkPo3ZXEZuDdbxiSxA5se6GXjoPufNxApfhBy7D1e1SjBQB.jpg"
+        width="600" />
+      <img
+        alt="A person with a serious expression, with the word 'MISSION' above their head and various icons and doodles in the background."
+        height="300" src="assets/mission.avif" width="600" />
+    </div>
+    <div class="right-section">
+      <div class="text-section">
+        <h2>
+          <i class="fas fa-sun"></i> VISION &amp; MISSION
+        </h2>
+        <h3>Our Vision:</h3>
+        <p>To be the industry leader in safety, energy, and comfort solutions by consistently exceeding expectations,
+          fostering innovation, and building long-lasting relationships with our clients.</p>
+      </div>
+      <div class="text-section">
+        <h3>Our Mission:</h3>
+        <div class="mission-box">
+          To provide clean, efficient, and affordable renewable energy solutions to our customers.
+        </div>
+        <div class="mission-box white">
+          To promote the widespread adoption of renewable energy and increase energy independence.
+        </div>
+        <div class="mission-box white">
+          To stay at the forefront of renewable energy technology and offer cutting-edge solutions.
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="containerC">
+    <div class="header">
+      <h2>Recent Projects</h2>
+      <button class="explore-btn">
+        Explore More
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M5 12h14M12 5l7 7-7 7" />
+        </svg>
+      </button>
+    </div>
+    <div class="main-grid">
+      <div class="grid-item large">
+        <img src="assets/img/about1.png" alt="Solar panel installation worker on large array">
+      </div>
+      <div class="grid-item large">
+        <img src="assets/img/about2.png" alt="Worker cleaning solar panels">
+      </div>
+    </div>
+    <div class="secondary-grid">
+      <div class="grid-item">
+        <img src="assets/img/about3.png" alt="Solar technician on panel array">
+      </div>
+      <div class="grid-item">
+        <img src="assets/img/Frame2.png" alt="Team installing solar panels">
+      </div>
+      <div class="grid-item">
+        <img src="assets/img/solar panels.png" alt="Rooftop solar installation">
+      </div>
+    </div>
+  </section>
+  <div class="container"
+    style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; background-color: #385569; padding: 50px; position: relative; overflow: hidden;">
+    <div class="text-content" style="color: #fff; max-width: 600px;">
+      <h1 style="font-size: 2rem; margin-bottom: 20px;">Discover how MAH Tech Engineering</h1>
+      <p style="font-size: 1.2rem; line-height: 1.6; margin-bottom: 20px;">Transform your space with safer, greener, and
+        more comfortable solutions.</p>
+      <a href="#" class="btn"
+        style="background-color: #fff; color: #385569; padding: 10px 20px; border: none; border-radius: 20px; font-size: 1rem; font-weight: bold; cursor: pointer; text-decoration: none; display: inline-block;">Get
+        In Touch</a>
+    </div>
+    <div class="image-content" style="position: relative; width: 100%; max-width: 500px; height: auto;">
+      <img src="assets/img/about1.png" alt="Fire Safety Image"
+        style="width: 100%; height: auto; clip-path: inset(0); object-fit: cover;">
+    </div>
+  </div>
+  <script>
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.slide');
+    const contents = document.querySelectorAll('.content');
+    const carouselTexts = document.querySelectorAll('.carousel-text');
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        slide.style.opacity = i === index ? '1' : '0';
+        slide.style.display = i === index ? 'block' : 'none';
+      });
+      contents.forEach((content, i) => {
+        content.style.opacity = i === index ? '1' : '0';
+      });
+      updateTextVisibility();
+    }
+    function nextSlide() {
+      currentSlide = (currentSlide + 1) % slides.length;
+      showSlide(currentSlide);
+    }
+    function updateTextVisibility() {
+      if (window.innerWidth <= 768) {
+        carouselTexts.forEach(text => {
+          text.style.display = 'none';
+        });
+      } else {
+        carouselTexts.forEach(text => {
+          text.style.display = 'block';
+        });
+      }
+    }
+    showSlide(currentSlide);
+    setInterval(nextSlide, 2000);
+    window.addEventListener('resize', updateTextVisibility);
+  </script>
+
+
+  <footer class="footer-container">
+    <div class="footer-content">
+      <!-- Section 1: Logo -->
+      <div class="footer-logo-section">
+        <img src="/assets/img/footerlogo.png" alt="Mah Fire and Safety Solution Logo" class="footer-logo">
+      </div>
+
+      <!-- Section 2: Info/About -->
+      <div class="footer-info-section">
+        <p>
+          Combining expertise in fire safety, renewable energy, and HVAC solutions, we deliver innovative systems that
+          safeguard lives, power sustainable development, and enhance indoor comfort. Trust us to be your partner in
+          safety, sustainability, and comfort.
+        </p>
+      </div>
+
+      <!-- Section 3: Contact Info -->
+      <div class="footer-contact-section">
+        <h2>Contact Us</h2>
+        <ul>
+          <li><i class='bx bxs-edit-location'></i> 68, Uruvela Colony, Near Chatrapati Square, Nagpur-440015</li>
+          <li><i class='bx bx-link-alt'></i> <a href="https://www.mahfireandsafetysolution.com"
+              target="_blank">www.techengi.in</a></li>
+          <li><i class='bx bx-envelope'></i> <a
+              href="mailto:mahfireandsafetysolution@gmail.com">mahtechengineering@gmail.com</a></li>
+          <li><i class='bx bx-phone'></i> Mr. Hemant Taksande - <a href="tel:+919405569565">9405569565 , 9428816839</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
