@@ -629,13 +629,16 @@
       overflow: hidden;
       border-radius: 10px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      height: 300px;
+      width: 400px;
     }
 
     .customer-item img {
       width: 100%;
-      height: auto;
+      height: 100%;
       display: block;
       border-radius: 10px;
+      object-fit: cover;
     }
 
     .customer-item.explore-more {
