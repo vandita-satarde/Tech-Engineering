@@ -855,8 +855,6 @@
     /* display: flex; */
     /* align-items: center; */
     background-color: #D9534F;
-
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -901,8 +899,9 @@
 }
 
 .image-content img {
-    max-width: 900px;
+    max-width: 800px;
     margin-left: 7.8%;
+    object-fit: contain;
 }
 
 /* Responsive Styles */
